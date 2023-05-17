@@ -12,11 +12,12 @@
 
 ***如果你在运行中遇到问题，问一下New Bing或许是个好主意。***
 
-如果你想使用Mac运行这个工具，理论上是可行的，但因为设备限制，我没有试过。macOS应该自带了Python，你可以自己安装keyboard包后使用（链接：https://pypi.org/project/keyboard/，在macOS上安装Python软件包的教程可自行查阅），但我不保证一定可以运行。（你或许需要搜索如何在macOS上运行main.py……）理论上来说，如果你不确定有没有安装Python，你应该这样运行，如果不行请联系开发者：
+如果你想使用Mac运行这个工具，理论上是可行的，但因为设备限制，我没有试过。macOS应该自带了Python，你可以自己安装keyboard包后使用（链接：https://pypi.org/project/keyboard/）
+（在macOS上安装Python软件包的教程可自行查阅），但我不保证一定可以运行。（你或许需要搜索如何在macOS上运行main.py……）理论上来说，如果你不确定有没有安装Python，你应该这样运行，如果不行请联系开发者：
 
 1. 你可以参考：https://www.runoob.com/python3/python3-install.html；
 
-2. 同时按住“command + 空格”键，在输入框内输入“终端”，双击打开运行终端：
+2. 同时按住“command + 空格”键，在输入框内输入“终端”，双击打开运行终端：输入Python3回车，查看是否安装了Python，检查完毕后关闭终端，如果没有安装则按照下一步安装，否则调到第4步骤。
 
 3. 去官方下载python，网址为： [Python Releases for macOS](https://link.zhihu.com/?target=https%3A//www.python.org/downloads/macos/) ，选择一个版本，注意：M1芯片的Mac别选成后缀： Intel 的就行，下载 pkg 文件，双击打开然后一路安装。
 
