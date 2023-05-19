@@ -12,12 +12,13 @@
 
 ***如果你在运行中遇到问题，问一下New Bing或许是个好主意。***
 
-如果你想使用Mac运行这个工具，理论上是可行的，但因为设备限制，我没有试过。macOS应该自带了Python，你可以自己安装keyboard包后使用（链接：https://pypi.org/project/keyboard/）
-（在macOS上安装Python软件包的教程可自行查阅），但我不保证一定可以运行。（你或许需要搜索如何在macOS上运行main.py……）理论上来说，如果你不确定有没有安装Python，你应该这样运行，如果不行请联系开发者：
+为方便小白用户起见，Lite.py理论上可以在安装Python3后运行（Windows、macOS乃至于其他支持Python的操作系统都可以），但是只能够计时……
+如果你想使用Mac运行这个工具，理论上是可行的，但因为设备限制，我没有试过。macOS在安装Python3后，你可以自己安装keyboard包后使用（链接：https://pypi.org/project/keyboard/）
+（在macOS上安装Python及其软件包的教程可自行查阅），但我不保证一定可以运行。（你或许需要搜索如何在macOS上运行main.py……）理论上来说，如果你不确定有没有安装Python3，你应该这样运行，如果不行请联系开发者：
 
 1. 你可以参考：https://www.runoob.com/python3/python3-install.html；
 
-2. 同时按住“command + 空格”键，在输入框内输入“终端”，双击打开运行终端：输入Python3回车，查看是否安装了Python，检查完毕后关闭终端，如果没有安装则按照下一步安装，否则调到第4步骤。
+2. 同时按住“command + 空格”键，在输入框内输入“终端”，双击打开运行终端：输入Python3回车，查看是否安装了Python3，检查完毕后关闭终端，如果没有安装则按照下一步安装，否则调到第4步骤。
 
 3. 去官方下载python，网址为： [Python Releases for macOS](https://link.zhihu.com/?target=https%3A//www.python.org/downloads/macos/) ，选择一个版本，注意：M1芯片的Mac别选成后缀： Intel 的就行，下载 pkg 文件，双击打开然后一路安装。
 
@@ -40,7 +41,7 @@
 
    ```bash
    cd Desktop
-   python main.py
+   python3 main.py
    ```
 
    以上内容假定你需要运行的py文件叫做main.py，被你放在了桌面（Desktop）上，你可以自行修改成实际情况。完成安装后，每次运行第6步即可。
@@ -76,6 +77,7 @@ python D:\BIMUN2023\JCC\JCC_Time_Converter.py
 **本计时器开源（虽然写得不怎么好Orz），一般来说其他模联如果想要使用请注明作者并遵守开源协议（内附）即可，给点反馈就更好了（比如说，你可以为我点一颗GitHub的星星）！但商用（也就是说，会议由商业组织举办或/和以盈利为目的），请联系yzbywyy@outlook.com!**
 
 当然你也可以来找我扩列，联系方式同上（QQ：2484846552），虽然可能以后模联会场上很难看到我了。
+如果你愿意打赏我一点，请点击链接：https://afdian.net/a/yzbywyy ，自愿，自愿，自愿！！！
 
 谨以此纪念我（们）的模联生涯。
 
